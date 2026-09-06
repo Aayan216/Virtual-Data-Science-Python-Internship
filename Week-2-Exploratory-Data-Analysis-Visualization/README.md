@@ -105,7 +105,7 @@ Week-2-Exploratory-Data-Analysis-Visualization/
 ├── README.md
 ├── Yuva_Week2_Titanic_EDA_Visualization.ipynb
 ├── titanic_eda.csv
-└── Yuva_Week2_Titanic_EDA_Report_HD.docx
+└── Yuva_Week2_Titanic_EDA_Report.docx
 ```
 
 ### Notebook
@@ -118,7 +118,7 @@ Week-2-Exploratory-Data-Analysis-Visualization/
 
 ### Report
 
-`Yuva_Week2_Titanic_EDA_Report_HD.docx` documents the EDA methodology, statistical analysis, visualizations, interpretations, transformations, key findings, and conclusion.
+`Yuva_Week2_Titanic_EDA_Report_n.docx` documents the EDA methodology, statistical analysis, visualizations, interpretations, transformations, key findings, and conclusion.
 
 ## Conclusion
 
