@@ -1,6 +1,6 @@
 # Virtual Data Science with Python
 
-A collection of practical **Data Science and Machine Learning projects** completed as part of the **Yuva Virtual Data Science with Python Trainee Internship**. This repository documents the progression from data acquisition and preprocessing to exploratory analysis, unsupervised learning, and supervised machine learning.
+A collection of practical **Data Science, Machine Learning, and Deep Learning projects** completed as part of the **Yuva Virtual Data Science with Python Trainee Internship**. This repository documents the progression from data acquisition and preprocessing through exploratory analysis, unsupervised learning, supervised learning, and deep learning.
 
 The projects are implemented in **Python** using Jupyter/Google Colab and follow a structured workflow of data preparation, analysis, modeling, evaluation, interpretation, and documentation.
 
@@ -14,7 +14,7 @@ The projects are implemented in **Python** using Jupyter/Google Colab and follow
 | Week 2 | Exploratory Data Analysis & Visualization | Titanic Dataset EDA | Completed |
 | Week 3 | Unsupervised Learning & Clustering | Customer Segmentation Using K-Means | Completed |
 | Week 4 | Supervised Learning | Breast Cancer Classification | Completed |
-| Week 5 | Deep Learning | To be completed | Pending |
+| Week 5 | Deep Learning | Fashion-MNIST Image Classification Using CNN | Completed |
 | Week 6 | Integrative Capstone Project | To be completed | Pending |
 
 ---
@@ -167,8 +167,6 @@ The fourth project focused on **supervised machine learning** and binary classif
 | ROC-AUC | **0.9960** | **0.9970** |
 | 5-Fold CV Accuracy | **97.37%** | **96.13%** |
 
-Logistic Regression was selected as the preferred model because it achieved higher recall, F1 Score, and mean cross-validation accuracy, while Random Forest achieved slightly higher precision and ROC-AUC.
-
 ### Output Files
 
 - `wdbc.data`
@@ -179,6 +177,64 @@ Logistic Regression was selected as the preferred model because it achieved high
 - `Yuva_Week4_Breast_Cancer_Classification_Report.docx`
 
 > **Note:** This project is for educational machine-learning purposes and is not intended for clinical diagnosis or medical decision-making.
+
+---
+
+# Week 5 — Deep Learning
+
+## Fashion-MNIST Image Classification Using Convolutional Neural Networks
+
+The fifth project introduced **deep learning** for image classification using **TensorFlow/Keras** and the Fashion-MNIST dataset.
+
+### Main Work
+
+- Loaded and preprocessed 28×28 grayscale Fashion-MNIST images.
+- Built a baseline **Multilayer Perceptron (MLP)**.
+- Designed a **Convolutional Neural Network (CNN)** for image classification.
+- Used convolution, Batch Normalization, ReLU activation, Max Pooling, Dropout, Global Average Pooling, and Dense layers.
+- Trained and evaluated the models using appropriate classification metrics.
+- Used Early Stopping and learning-rate scheduling during training.
+- Compared CNN performance with the MLP baseline.
+- Conducted controlled experiments using heavy and light image augmentation.
+- Generated learning curves, confusion matrices, class-level accuracy, and error analysis.
+- Investigated resource constraints and model generalization.
+
+### Final CNN Results
+
+The selected **CNN without augmentation** achieved:
+
+| Metric | Result |
+|---|---:|
+| Test Accuracy | **91.91%** |
+| Precision | **92.00%** |
+| Recall | **91.91%** |
+| F1-Score | **91.93%** |
+| Test Loss | **0.2287** |
+| Correct Predictions | **9,191 / 10,000** |
+
+### Model Comparison
+
+| Model | Accuracy | Precision | Recall | F1-Score |
+|---|---:|---:|---:|---:|
+| Baseline MLP | 89.29% | 89.36% | 89.29% | 89.31% |
+| CNN — No Augmentation | **91.91%** | **92.00%** | **91.91%** | **91.93%** |
+| CNN — Heavy Augmentation | 87.03% | 88.23% | 87.03% | 87.30% |
+| CNN — Light Augmentation | 82.84% | 83.44% | 82.84% | 82.42% |
+
+### Key Findings
+
+- The CNN without augmentation achieved higher test accuracy than the baseline MLP.
+- The final model correctly classified **9,191 of 10,000** test images.
+- **Bag, Sneaker, Trouser, and Ankle boot** had particularly strong class-level performance.
+- **Shirt** was the most difficult class, with **78.8%** class accuracy.
+- Major errors occurred between visually similar upper-body classes such as Shirt, T-shirt/top, Coat, and Pullover.
+- The augmentation experiments showed lower performance than the non-augmented CNN in these controlled experiments.
+
+### Output Files
+
+- `Yuva_Week5_Fashion_MNIST_Deep_Learning.ipynb`
+- `Yuva_Week5_Fashion_MNIST_Deep_Learning_Report.docx`
+- `fashion_mnist_final_results.zip`
 
 ---
 
@@ -208,6 +264,11 @@ Logistic Regression was selected as the preferred model because it achieved high
   - Random Forest
   - Classification metrics
   - Cross-validation
+
+### Deep Learning
+
+- **TensorFlow**
+- **Keras**
 
 ### Development Environment
 
@@ -253,7 +314,10 @@ Virtual-Data-Science-Python-Internship/
 │   └── Yuva_Week4_Breast_Cancer_Classification_Report.docx
 │
 ├── Week-5-Deep-Learning/
-│   └── README.md
+│   ├── README.md
+│   ├── Yuva_Week5_Fashion_MNIST_Deep_Learning.ipynb
+│   ├── Yuva_Week5_Fashion_MNIST_Deep_Learning_Report.docx
+│   └── fashion_mnist_final_results.zip
 │
 └── Week-6-Integrative-Capstone-Project/
     └── README.md
@@ -267,16 +331,28 @@ The repository demonstrates a progressive data-science workflow:
 
 **Data → Cleaning → Exploration → Visualization → Unsupervised Learning → Supervised Learning → Deep Learning → Capstone**
 
-Through the completed first four weeks, the projects demonstrate practical experience in preparing datasets, analyzing patterns, visualizing data, discovering customer segments, building classification models, evaluating machine-learning performance, and communicating results through documented reports.
+Through the completed first five weeks, the projects demonstrate practical experience in:
+
+- Data cleaning and preprocessing
+- Exploratory data analysis and visualization
+- Feature engineering
+- Unsupervised customer segmentation
+- Supervised classification
+- Model validation and performance evaluation
+- Neural-network and CNN development
+- Image classification
+- Error analysis and interpretation
+- Technical reporting and documentation
 
 ---
 
-# Future Work
+# Current Status
 
-The remaining internship stages will extend this foundation into:
+**Weeks 1–5: Completed**
 
-- **Week 5:** Deep Learning application and neural-network workflows.
-- **Week 6:** End-to-end integrative capstone project combining the skills developed throughout the internship.
+**Week 6: Pending**
+
+Week 6 is intentionally left open for the upcoming **Integrative Capstone Project**.
 
 ---
 
