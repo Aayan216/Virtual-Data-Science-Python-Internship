@@ -1,0 +1,20 @@
+Week 6 Churn Prediction Notes
+===============================
+
+Problem: Binary customer churn prediction
+Target: Churn_Binary
+Split: 80/20 stratified train-test split
+Random state: 42
+
+Models:
+- DummyClassifier (most frequent baseline)
+- Logistic Regression
+- Random Forest (300 trees)
+
+Metrics:
+- Accuracy
+- Precision
+- Recall
+- F1 Score
+- ROC-AUC
+- PR-AUC
