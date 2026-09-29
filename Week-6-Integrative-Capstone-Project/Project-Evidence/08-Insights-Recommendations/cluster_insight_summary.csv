@@ -1,0 +1,3 @@
+Cluster,Customer_Count,Percentage,Churn_Rate_Percent,SeniorCitizen,tenure,MonthlyCharges,TotalCharges,Num_Services,SecuritySupport_Count,Streaming_Count
+0,2873,40.792276018742015,21.33658197006613,0.22,49.45,89.31,4410.58,5.43,2.36,1.49
+1,4170,59.20772398125799,30.119904076738607,0.12,20.6,47.85,811.65,1.94,0.51,0.28

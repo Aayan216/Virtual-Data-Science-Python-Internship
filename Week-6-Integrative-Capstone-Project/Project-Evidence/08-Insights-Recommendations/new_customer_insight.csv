@@ -1,0 +1,3 @@
+Is_New_Customer,count,sum,mean,Customer_Type,Churn_Rate_Percent
+0,5562,1085,0.1950737144911902,Existing (>6 months),19.50737144911902
+1,1481,784,0.5293720459149224,New (0-6 months),52.93720459149224

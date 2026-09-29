@@ -1,0 +1,7 @@
+Area,Why,Proposed_Method
+Threshold optimization,False negatives and false positives may have different costs.,Select the threshold using explicit operational costs.
+Probability calibration,Predicted probabilities may be used to prioritize outreach.,Evaluate calibration curves and Brier score.
+Interaction effects,"Contract, tenure, service type, and charges may interact.",Test interactions or nonlinear models using cross-validation.
+Explainability,Operational users may need explanations for predictions.,Evaluate permutation importance or SHAP.
+Segment-specific analysis,The two customer clusters have different profiles.,Test segment-specific thresholds or models.
+Cost-sensitive modeling,Missed churn and unnecessary outreach can have different costs.,Define a cost matrix and compare models using expected cost.

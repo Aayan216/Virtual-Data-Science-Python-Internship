@@ -1,0 +1,40 @@
+
+WEEK 6 - CAPSTONE INSIGHTS
+==========================
+
+Dataset size: 7,043
+Overall churn rate: 26.54%
+
+KEY FINDINGS
+------------
+
+1. Mean tenure:
+   Churned customers: 17.98 months
+   Non-churned customers: 37.57 months
+
+2. Early-tenure customers:
+   0-6 month churn rate: 52.94%
+   Existing (>6 months) churn rate: 19.51%
+
+3. Contract:
+   Month-to-month: 42.71%
+   One year: 11.27%
+   Two year: 2.83%
+
+4. Internet service:
+   Fiber optic: 41.89%
+   DSL: 18.96%
+   No internet: 7.40%
+
+5. Payment method:
+   Electronic check: 45.29%
+
+6. Model errors:
+   False negatives: 79
+   False positives: 271
+   Total errors: 350
+
+INTERPRETATION NOTE
+-------------------
+These are observed associations and model results.
+They do not establish causal relationships.
