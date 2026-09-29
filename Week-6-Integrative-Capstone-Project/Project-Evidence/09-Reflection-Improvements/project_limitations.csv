@@ -1,0 +1,7 @@
+Limitation_ID,Area,Limitation,Evidence,Implication
+L1,Predictive performance,"The final tuned Logistic Regression has a test F1 of approximately 0.63, so predictions are useful but not error-free.",Test F1 = 0.6277,Predictions should be treated as risk estimates rather than certain outcomes.
+L2,False negatives,79 actual churners were classified as non-churners.,79 false negatives,Potential churn cases can remain undetected.
+L3,False positives,271 non-churners were classified as churners.,271 false positives,A churn-focused intervention could also reach customers who would otherwise remain.
+L4,Threshold dependence,Changing the classification threshold changes the precision-recall trade-off.,Threshold analysis performed,The operational threshold should depend on the relative cost of false negatives and false positives.
+L5,Correlation,"Tenure, TotalCharges, and service-related variables contain overlapping information.",Strong feature correlations observed,Model coefficients should be interpreted in the context of correlated predictors.
+L6,Cluster interpretation,The two-cluster solution is useful for broad customer profiling but does not capture every possible customer subgroup.,K=2 selected while Davies-Bouldin preferred K=8.,Additional segmentation approaches could reveal more granular customer groups.

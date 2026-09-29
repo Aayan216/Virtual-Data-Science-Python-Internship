@@ -1,0 +1,11 @@
+Area,Success,Evidence
+Data acquisition,"A complete public customer dataset containing 7,043 records and 21 original variables was used.","7,043 x 21 raw dataset"
+Data quality,The final cleaned dataset contains no missing values and no duplicate rows.,0 missing values; 0 duplicates
+Data cleaning,"TotalCharges was converted from text to numeric, and the 11 blank records were investigated before being represented as zero.",11 blank TotalCharges records
+EDA,"EDA combined descriptive statistics, visualizations, correlation analysis, chi-square association tests, and Mann-Whitney tests.",Multiple statistical and visual analyses
+Feature engineering,"Service, security/support, streaming, and customer-lifecycle features were created.","Num_Services, SecuritySupport_Count, Streaming_Count, Is_New_Customer"
+Unsupervised learning,K-Means clustering was evaluated across K=2 to K=10 using multiple cluster-quality metrics.,"Elbow, Silhouette, Davies-Bouldin, Calinski-Harabasz"
+Supervised learning,"A baseline classifier, Logistic Regression, and Random Forest were compared.",3 model levels
+Model validation,Five-fold stratified cross-validation and hyperparameter tuning were performed.,5-fold CV + GridSearchCV
+Error analysis,False positives and false negatives were investigated by customer characteristics and customer segments.,350 total classification errors analyzed
+Interpretability,Logistic Regression coefficients and Random Forest feature importance were examined.,Feature coefficient and importance outputs

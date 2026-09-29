@@ -1,0 +1,56 @@
+
+WEEK 6 CAPSTONE REFLECTION
+==========================
+
+PROJECT SUCCESS
+---------------
+The project successfully implemented an end-to-end data science
+pipeline covering data cleaning, exploratory analysis, feature
+engineering, unsupervised segmentation, supervised prediction,
+validation, error analysis, interpretation, recommendations,
+and future improvement planning.
+
+KEY TECHNICAL CHALLENGES
+------------------------
+1. TotalCharges required data-type correction and investigation
+   of 11 blank records before conversion.
+2. The target variable was imbalanced, with churn representing
+   26.54% of the dataset.
+3. Clustering metrics did not fully agree: Silhouette and
+   Calinski-Harabasz preferred K=2, while Davies-Bouldin preferred K=8.
+4. Several predictive variables contain overlapping information.
+5. The final churn classifier still produced false positives
+   and false negatives.
+
+MODEL REFLECTION
+----------------
+The tuned Logistic Regression produced a test F1 score of
+approximately 0.63 and recall of approximately 0.79.
+This shows useful churn detection but also demonstrates that
+the model should not be treated as perfectly reliable.
+
+ERROR ANALYSIS
+--------------
+The test-set analysis identified 79 false negatives and
+271 false positives. These errors were further examined
+by tenure, contract, internet service, payment method,
+and customer segment.
+
+IMPROVEMENT PLAN
+----------------
+Future work should evaluate:
+- probability calibration,
+- cost-sensitive threshold selection,
+- nonlinear boosting models,
+- feature selection,
+- explainable AI,
+- interaction effects,
+- segment-specific modeling,
+- and alternative clustering algorithms.
+
+IMPORTANT INTERPRETATION NOTE
+-----------------------------
+Observed differences, statistical associations, model
+coefficients, and feature importance indicate predictive
+relationships in this dataset. They do not by themselves
+establish causal relationships.

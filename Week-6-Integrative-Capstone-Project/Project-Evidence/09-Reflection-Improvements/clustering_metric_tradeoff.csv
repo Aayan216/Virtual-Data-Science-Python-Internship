@@ -1,0 +1,4 @@
+Criterion,Preferred_K,Value,Interpretation
+Silhouette Score,2,0.3900605924705475,Prefers stronger within-cluster cohesion and separation.
+Davies-Bouldin Index,8,1.0439000181403602,Prefers lower average similarity between clusters.
+Calinski-Harabasz Score,2,5586.303692175138,Prefers strong between-cluster separation relative to within-cluster dispersion.
