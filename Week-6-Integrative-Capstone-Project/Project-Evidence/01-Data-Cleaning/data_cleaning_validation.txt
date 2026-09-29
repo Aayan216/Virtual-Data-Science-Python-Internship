@@ -1,0 +1,29 @@
+WEEK 6 - DATA CLEANING VALIDATION
+
+Raw dataset
+- Rows: 7043
+- Columns: 21
+- Duplicate rows before cleaning: 0
+
+TotalCharges validation
+- Original dtype: object
+- Blank TotalCharges records: 11
+- All 11 blank records had tenure = 0
+- TotalCharges converted to numeric (float64)
+- Blank numeric values represented as 0.0
+
+Final cleaned dataset
+- Rows: 7043
+- Columns: 21
+- Missing values: 0
+- Duplicate rows: 0
+- TotalCharges dtype: float64
+
+Numerical ranges
+- SeniorCitizen: 0 to 1
+- tenure: 0 to 72
+- MonthlyCharges: 18.25 to 118.75
+- TotalCharges: 0.0 to 8684.8
+
+Conclusion
+The cleaned dataset passed the final quality checks and was retained without dropping the 11 valid zero-tenure customer records.
