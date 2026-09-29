@@ -1,0 +1,50 @@
+Feature,Importance
+cat__Contract_Month-to-month,0.11694521997794201
+num__tenure,0.11151342300079618
+num__TotalCharges,0.10092456113178835
+num__MonthlyCharges,0.08635384067432836
+cat__Contract_Two year,0.04990289123350948
+cat__OnlineSecurity_No,0.047252596075166214
+cat__TechSupport_No,0.041304227891495265
+cat__InternetService_Fiber optic,0.03676131071895296
+cat__PaymentMethod_Electronic check,0.0327283162922983
+num__Is_New_Customer,0.023802770682150698
+num__SecuritySupport_Count,0.02266077116048275
+num__Num_Services,0.02030024080983263
+cat__OnlineBackup_No,0.018591224083276434
+cat__Contract_One year,0.014754662816461175
+cat__InternetService_DSL,0.014112765576104712
+cat__PaperlessBilling_No,0.012510904201025306
+num__Streaming_Count,0.012454605799284254
+cat__gender_Female,0.012203451360681045
+cat__PaperlessBilling_Yes,0.011955862734495646
+cat__gender_Male,0.011506425205903776
+cat__OnlineSecurity_Yes,0.010312487645126864
+cat__DeviceProtection_No,0.00951911652362458
+cat__Partner_No,0.00938218669542485
+cat__Partner_Yes,0.009356896721612573
+cat__TechSupport_Yes,0.009349806876700142
+cat__MultipleLines_No,0.008870774786482809
+cat__Dependents_No,0.008724459296845642
+cat__Dependents_Yes,0.008715959222478873
+num__SeniorCitizen,0.008679152161525037
+cat__PaymentMethod_Bank transfer (automatic),0.008426401843517482
+cat__OnlineBackup_Yes,0.008307481064515308
+cat__PaymentMethod_Credit card (automatic),0.008023893682332962
+cat__MultipleLines_Yes,0.007986629321892163
+cat__TechSupport_No internet service,0.007540278073516262
+cat__PaymentMethod_Mailed check,0.007059037477011029
+cat__StreamingMovies_Yes,0.006750228314071591
+cat__DeviceProtection_Yes,0.006664289874449207
+cat__StreamingMovies_No,0.00663935836731579
+cat__StreamingMovies_No internet service,0.006516399029242752
+cat__StreamingTV_Yes,0.0064667717658415756
+cat__OnlineSecurity_No internet service,0.006230989443133313
+cat__StreamingTV_No,0.0060325297697344646
+cat__DeviceProtection_No internet service,0.0049548120653959745
+cat__OnlineBackup_No internet service,0.004935013552026415
+cat__InternetService_No,0.004879410074100661
+cat__StreamingTV_No internet service,0.0032638972899407077
+cat__PhoneService_Yes,0.0027524136009065454
+cat__MultipleLines_No phone service,0.002601987220599707
+cat__PhoneService_No,0.002517266814659181

@@ -1,0 +1,5 @@
+PaymentMethod,Customers,Errors,Error_Rate_Percent
+Bank transfer (automatic),300,50,16.666666666666664
+Credit card (automatic),309,56,18.12297734627832
+Electronic check,474,172,36.28691983122363
+Mailed check,326,72,22.085889570552148
