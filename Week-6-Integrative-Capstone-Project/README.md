@@ -243,15 +243,16 @@ Raw Data
 → Cross-Validation & Tuning  
 → Error Analysis  
 → Insights & Recommendations  
-→ Limitations & Improvements
+→ Limitations & Improvements  
+→ Final Report & Evidence
 
 ## Main Files
 
-- `Yuva_Week6_Customer_Churn_Integrative_Capstone.ipynb`
+- `Yuva_Week6_Customer_Churn_Segmentation.ipynb`
 - `Yuva_Week6_Customer_Churn_Integrative_Capstone_Report.docx`
 - `Telco-Customer-Churn.csv`
 - `Telco-Customer-Churn-Cleaned.csv`
-- Selected analysis/output files and visualizations
+- `Project-Evidence/` — organized datasets, analysis outputs, visualizations, validation results, error analysis, insights, and reflection materials.
 
 ## Technologies
 
