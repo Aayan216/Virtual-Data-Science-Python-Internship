@@ -606,3 +606,10 @@ The repository now contains the completed internship work through the **Week 6 I
 B.Tech — Computer Science & Information Technology
 
 **Yuva Virtual Data Science with Python Trainee Internship**
+
+---
+
+## Author
+
+**Mohammed Aayan**  
+B.Tech — Computer Science & Information Technology
